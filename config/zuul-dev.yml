@@ -30,12 +30,4 @@ hystrix:
           thread:
             timeoutInMilliseconds: 500
 
-feign:
-  hystrix:
-    enabled: true
-    
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
+
